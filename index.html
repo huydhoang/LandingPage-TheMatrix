@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/pyzero_logo_v1_light.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/pyzero_logo_v1_light.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/pyzero_logo_v1_light.png"
+    />
+    <link rel="shortcut icon" href="./assets/images/pyzero_logo_v1_light.png" />
+    <meta name="apple-mobile-web-app-title" content="pyzero" />
+    <meta name="application-name" content="pyzero" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" content="#000000" />
+
+    <title>pyzero.com</title>
+
+    <style>
+      body,
+      html {
+        margin: 0px;
+        padding: 0px;
+        font-family: "Muli", sans-serif;
+        color: #4bff75;
+        background-color: black;
+        overflow: hidden;
+      }
+
+      .centered {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        position: fixed;
+        top: 45%;
+        left: 50%;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+
+      .overlay {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+    </style>
+
+    <link href="./assets/css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="./assets/js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-GG-ANALYTICS-ID-HERE");
+    </script>
+  </head>
+
+  <body cz-shortcut-listen="true">
+    <canvas id="canv" width="872" height="829"></canvas>
+    <script src="./assets/script.js"></script>
+
+    <div class="overlay"></div>
+
+    <div class="centered">
+      <img class="group-logo" src="./assets/images/pyzero_logo_v1_light.png" alt="">
+      <h1>pyzero</h1>
+      <h2>Machine Learning / Artificial Intelligence in Production</h2>
+      <img class="hands-icon" src="./assets/images/hands.png" alt="">
+      <div class="buttons">
+        <a class="pill-red double-border-red pill" href="https://github.com/pyzero-ml" rel="noopener noreferrer">Code</a>
+        <a class="pill-blue double-border-blue pill" href="https://blog.pyzero.com" rel="noopener noreferrer">Read</a>
+      </div>
+    </div>
+  </body>
+</html>
